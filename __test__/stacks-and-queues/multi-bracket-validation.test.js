@@ -1,6 +1,6 @@
 'use strict';
 
-let balancedBraces =  require('../../stacks-and-queues/multi-bracket-validation/multi-bracket-validation.js');
+let balancedBraces = require('../../stacks-and-queues/multi-bracket-validation/multi-bracket-validation.js');
 
 describe('balanced brackets', () => { 
 
