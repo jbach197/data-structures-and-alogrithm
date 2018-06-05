@@ -9,7 +9,7 @@ describe('Queue', () => {
     let Stack2 = [];
 
     let initialValue = 'A';
-    enqueue(initialValue);
+    queue.enqueue(initialValue);
     expect(Stack1).toEqual([initialValue]);
   });
 
