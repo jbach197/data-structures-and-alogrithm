@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1528219965230" clover="3.2.0">
-  <project timestamp="1528219965230" name="All files">
+<coverage generated="1528222567456" clover="3.2.0">
+  <project timestamp="1528222567456" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
-      <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation.js">
+      <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation/multi-bracket-validation.js">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
