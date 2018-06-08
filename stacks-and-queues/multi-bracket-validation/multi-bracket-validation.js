@@ -13,6 +13,6 @@ function balancedBraces(str) {
   }
   
   return stack.length === 0;
-};
+}
 
 module.exports = balancedBraces;

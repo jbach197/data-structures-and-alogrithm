@@ -14,8 +14,8 @@ describe('balanced brackets', () => {
     expect(outcome ).toEqual(false);
   });
 
-    it('disregards other content', () => {
-      let outcome = balancedBraces('ab[cd]{}');
-      expect(outcome).toEqual(true);
-    });
+  it('disregards other content', () => {
+    let outcome = balancedBraces('ab[cd]{}');
+    expect(outcome).toEqual(true);
   });
+});
