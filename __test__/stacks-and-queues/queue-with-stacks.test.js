@@ -1,6 +1,6 @@
 'use strict';
 
-let Queue = require('../../stacks-and-queues/queue-with-stacks/queue-with-stacks.js');
+let Queue = require('../../stacks-and-queues/queue/queue-with-stacks.js');
 
 describe('Queue', () => {
 
