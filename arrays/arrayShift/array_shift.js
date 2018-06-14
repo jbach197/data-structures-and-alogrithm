@@ -14,6 +14,6 @@ function insertShiftArray(arr, n) {
     newArr[counter] = arr[i];
     counter++;      
   }
-    return newArr;
+  return newArr;
 }
 module.exports = insertShiftArray;
