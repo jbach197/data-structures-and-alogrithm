@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1528222567456" clover="3.2.0">
-  <project timestamp="1528222567456" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
-      <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation/multi-bracket-validation.js">
+<coverage generated="1528482460799" clover="3.2.0">
+  <project timestamp="1528482460799" name="All files">
+    <metrics statements="22" coveredstatements="15" conditionals="10" coveredconditionals="6" methods="3" coveredmethods="1" elements="35" coveredelements="22" complexity="0" loc="22" ncloc="22" packages="2" files="2" classes="2">
+      <package name="multi-bracket-validation">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="19" type="stmt"/>
-        <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-      </file>
+        <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation/multi-bracket-validation.js">
+          <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="7" count="19" type="stmt"/>
+          <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
+          <line num="9" count="8" type="stmt"/>
+          <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
+          <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="queue">
+        <metrics statements="11" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="queue-with-stacks.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/queue/queue-with-stacks.js">
+          <metrics statements="11" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+      </package>
     </metrics>
   </project>
 </coverage>
