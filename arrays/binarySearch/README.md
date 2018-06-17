@@ -8,6 +8,7 @@ Input                   Output
 [2, 3, 6, 7, 9], 10     -1
 
 #Solution
+![whiteboard image](array_binary_sort.jpg)
 
 #Credits
 None.
