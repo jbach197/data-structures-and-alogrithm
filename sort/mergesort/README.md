@@ -18,4 +18,4 @@ Output
 ## Credits
 Worked with: Ben Hurst
 
-Resources Consulted: None
+Resources Consulted: Various internet resorces on sorting.
