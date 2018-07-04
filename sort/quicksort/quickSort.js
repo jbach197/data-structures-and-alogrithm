@@ -18,3 +18,5 @@ for(let i = 1;  i < array.length; i++) {
 return quickSort(left).concat(pivot, quickSort(right))
 
 }
+
+module.exports = quickSort();
