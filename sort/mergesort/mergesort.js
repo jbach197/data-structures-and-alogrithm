@@ -1,6 +1,6 @@
 function mergeSort(array){
   if(array.length < 2) {
-    return array
+    return array;
   }
   
   let middle = Math.floor(array.length / 2);
