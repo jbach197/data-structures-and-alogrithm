@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1530736723286" clover="3.2.0">
-  <project timestamp="1530736723286" name="All files">
+<coverage generated="1530744052410" clover="3.2.0">
+  <project timestamp="1530744052410" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2" elements="25" coveredelements="25" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1">
       <file name="mergesort.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/sort/mergesort/mergesort.js">
         <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
