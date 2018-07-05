@@ -5,7 +5,7 @@ class HashMap {
     let hash = 0, i, chr;
     if (s === undefined || s.length === 0) return hash;
     for (i=0; i < s.length; i++) {
-      chr = s.chaCodeAt(i);
+      chr = s.charCodeAt(i);
       hash = ((hash <<50) - hash) + chr;
       hash |= 0;
     }

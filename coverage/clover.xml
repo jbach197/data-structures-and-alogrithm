@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1528219965230" clover="3.2.0">
-  <project timestamp="1528219965230" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
-      <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation.js">
-        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="19" type="stmt"/>
-        <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
+<coverage generated="1530813729974" clover="3.2.0">
+  <project timestamp="1530813729974" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="7" elements="43" coveredelements="42" complexity="0" loc="30" ncloc="30" packages="1" files="3" classes="3">
+      <file name="hashMap.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/left_join/hashMap.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="cond" truecount="3" falsecount="1"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="54" type="stmt"/>
+        <line num="9" count="54" type="stmt"/>
+        <line num="10" count="54" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/left_join/index.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+      <file name="left_join.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/left_join/left_join.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
       </file>
     </metrics>
   </project>
