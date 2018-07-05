@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const HashMap = require('./hashMap.js');
 const LeftJoin = require('./left_join.js');
