@@ -9,7 +9,7 @@ class HashMap {
       hash = ((hash <<50) - hash) + chr;
       hash |= 0;
     }
-  return hash;
+    return hash;
   }
 }
 

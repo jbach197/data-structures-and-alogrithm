@@ -1,8 +1,8 @@
-'use strict'
+'use strict';
 
 class LeftJoin {
   mergeLeft(leftTable, rightTable) {
-    let joinedTable = {};
+    let joinedTable = {};  
 
     Object.keys(leftTable).forEach(function(key) {
       if(key in rightTable) {
@@ -14,8 +14,8 @@ class LeftJoin {
           joinedTable[nestedKey] = [leftTable[key][nestedKey], null];
         });
       }
-  });
-  return joinedTable;
+    });
+    return joinedTable;
   }
 }
 

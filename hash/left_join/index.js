@@ -4,7 +4,7 @@ const HashMap = require('./hashMap.js');
 const LeftJoin = require('./left_join.js');
 
 let hashMap = new HashMap();
-let leftJoin = new LeftJoin();
+let leftJoin = new LeftJoin(); //eslint-disable-line
 
 let synonym = {
   'fond': 'enamored',

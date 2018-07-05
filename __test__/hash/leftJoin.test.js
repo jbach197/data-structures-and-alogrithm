@@ -39,6 +39,4 @@ describe('Tests for left_join whiteboard', () => {
       });
     });
   });
-
-
-  });
+});
