@@ -1,4 +1,5 @@
 ## Left Join for Two Hash Maps
+Travis: https://travis-ci.com/jbach197/data-structures-and-alogrithm/jobs/133024955
 
 ## Challenge
 Write a function that LEFT JOINs two hashmaps into a single data structure.
