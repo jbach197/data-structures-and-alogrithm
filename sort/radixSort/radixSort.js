@@ -1,59 +1,68 @@
-function radixSort(array) {
-  if(array.length < 2) {
-    return array
-  }
- 
-  let radix = 10;
-//Determine min and max values
-  let min = array[0];
-  let max = array[0];
+'use strict';
 
-  for(i = 0; i < array.length; i++) {
-    if(array[i] < min) {
-      min = array[i]
-    } else if(array[i] > max) {
+function radixSort(array, radix) {
+  if (array.length === 0) {
+    return array;
+  }
+
+  radix =  10;
+
+  // Determine minimum and maximum values
+  var min= array[0];
+  var max= array[0];
+  for (var i = 1; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
+    } else if (array[i] > max) {
       max = array[i];
     }
   }
 
-  let exponent = 1
+  // Perform counting sort on each exponent/digit, starting at LSD
+  var exponent = 1;
   while ((max - min) / exponent >= 1) {
     array = sortByDigit(array, radix, exponent, min);
+
     exponent = exponent * radix;
   }
 
   return array;
 }
 
-//function to sort by digits
-function sortByDigit(array, radix, exponent, min){
+function sortByDigit(array, radix, exponent, min) {
+  var i;
+  var bucketIndex;
+  var buckets = new Array(radix);
+  var output = new Array(array.length);
 
-  let bucketIndex = 0
-  let buckets = new Array(radix);
-  let output = new Array(array.length);
-
-for (i = 0; i < radix; i++) {
+  // Initialize bucket
+  for (i = 0; i < radix; i++) {
     buckets[i] = 0;
   }
 
-  for(i = 0; i < radix; i++){
+  // Count frequencies
+  for (i = 0; i < array.length; i++) {
     bucketIndex = Math.floor(((array[i] - min) / exponent) % radix);
     buckets[bucketIndex]++;
   }
 
-  for(i = 1; i < radix; i++) {
-    buckets[i] += buckets[i -1];
+  // Compute cumulates
+  for (i = 1; i < radix; i++) {
+    buckets[i] += buckets[i - 1];
   }
 
-  for(i = array.length - 1; i >= 0; i--) {
+  // Move records
+  for (i = array.length - 1; i >= 0; i--) {
     bucketIndex = Math.floor(((array[i] - min) / exponent) % radix);
-    output[--buckets[bucketIndex]]
-= array[i];  
-}
+    output[--buckets[bucketIndex]] = array[i];
+  }
 
+  // Copy back
   for (i = 0; i < array.length; i++) {
     array[i] = output[i];
   }
 
   return array;
 }
+
+module.exports = radixSort;
