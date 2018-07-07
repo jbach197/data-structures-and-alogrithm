@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1529276505075" clover="3.2.0">
-  <project timestamp="1529276505075" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1">
-      <file name="array_binary_search.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/arrays/binarySearch/array_binary_search.js">
-        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="1" type="stmt"/>
+<coverage generated="1530936745310" clover="3.2.0">
+  <project timestamp="1530936745310" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1" elements="13" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1">
+      <file name="hashMap.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/repeatedWord/hashMap.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="6" count="54" type="stmt"/>
+        <line num="7" count="54" type="cond" truecount="3" falsecount="1"/>
+        <line num="8" count="54" type="stmt"/>
+        <line num="9" count="202" type="stmt"/>
+        <line num="10" count="202" type="stmt"/>
+        <line num="11" count="202" type="stmt"/>
+        <line num="13" count="54" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
     </metrics>
   </project>
