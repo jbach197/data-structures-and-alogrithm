@@ -12,15 +12,15 @@ class BreadthFirstTraversal {
   }
 
   
-  walk(array, outputArr) {
+  walk(array, outputArray) {
     let newNodes = [];
 
     for (var i = 0; i < array.length; i++) {
-        if (array[i]) {
-          outputArr.push(array[i].value);
-          newNodes.push(array[i].left);
-          newNodes.push(array[i].right);
-        }
+      if (array[i]) {
+        outputArray.push(array[i].value);
+        newNodes.push(array[i].left);
+        newNodes.push(array[i].right);
+      }
     }
 
     if (newNodes.every(this.isNull) === false) {

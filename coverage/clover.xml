@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1528219965230" clover="3.2.0">
-  <project timestamp="1528219965230" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
-      <file name="multi-bracket-validation.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/stacks-and-queues/multi-bracket-validation.js">
-        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="19" type="stmt"/>
-        <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+<coverage generated="1530941092124" clover="3.2.0">
+  <project timestamp="1530941092124" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="9" coveredconditionals="8" methods="6" coveredmethods="6" elements="43" coveredelements="42" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3">
+      <file name="binaryTree.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/tree_intersection/binaryTree.js">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="node.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/tree_intersection/node.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="21" type="stmt"/>
+        <line num="6" count="21" type="stmt"/>
+        <line num="7" count="21" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="tree_intersection.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/hash/tree_intersection/tree_intersection.js">
+        <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="16" count="28" type="stmt"/>
+        <line num="18" count="28" type="stmt"/>
+        <line num="19" count="105" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="74" type="stmt"/>
+        <line num="21" count="74" type="stmt"/>
+        <line num="22" count="74" type="stmt"/>
+        <line num="26" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="21" type="stmt"/>
+        <line num="29" count="28" type="stmt"/>
+        <line num="33" count="85" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="22" type="stmt"/>
+        <line num="41" count="174" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="43" count="14" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
       </file>
     </metrics>
   </project>
