@@ -1,22 +1,23 @@
-function quickSort(array) {
+'use strict';
 
-  if(array.length <2 ){
+function quickSort(array) { //eslint-disable-line
+  if(array.length < 2) {
     return array;
   }
 
-  let pivot = array[0];
-  let left = [];
-  let right = [];
+  var pivot = array[0];
+  var lesser = [];
+  var greater = [];
 
-  for(let i = 1;  i < array.length; i++) {
-    if (array[i] < pivot)
-      left.push(array[i]);
-    else
-      right.push(array[i]);
+  for(var i = 1; i < array.length; i++) {
+    if(array[i] < pivot) {
+      lesser.push(array[i]);
+    } else {
+      greater.push(array[i]);
+    }
   }
 
-  return quickSort(left).concat(pivot, quickSort(right));
-
+  return quickSort(lesser).concat(pivot, quickSort(greater));
 }
 
-module.exports = quickSort();
+module.exports = quickSort;

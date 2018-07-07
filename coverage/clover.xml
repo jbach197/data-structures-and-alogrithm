@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1530746341905" clover="3.2.0">
-  <project timestamp="1530746341905" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0">
+<coverage generated="1530988456451" clover="3.2.0">
+  <project timestamp="1530988456451" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1">
+      <file name="quickSort.js" path="/Users/jen/codefellows/401/data-structures-and-alogrithm/sort/quickSort/quickSort.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
     </metrics>
   </project>
 </coverage>

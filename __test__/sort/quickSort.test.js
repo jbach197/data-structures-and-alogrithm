@@ -3,14 +3,14 @@
 let quickSort = require('../../sort/quickSort/quickSort.js');
 
 describe('quickSort', () => {
-  it('returns array if length of 1', () => {
-    let outcome = quickSort([2]);
-    expect(outcome).toEqual([2]);
-  });
-
-  it('returns array no length', () => {
+  it('quickSort() returns original array if no element', () => {
     let outcome = quickSort([]);
     expect(outcome).toEqual([]);
+  });
+
+  it('quickSort() returns original array if only 1 element', () => {
+    let outcome = quickSort([2]);
+    expect(outcome).toEqual([2]);
   });
 
   it('quickSort() sorts array correctly', () => {
